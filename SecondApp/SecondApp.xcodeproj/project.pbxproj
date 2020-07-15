@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2645B40124BFA3D50064B026 /* ASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2645B40024BFA3D50064B026 /* ASButton.swift */; };
 		26E4A3F124BDA80C00C34678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4A3F024BDA80C00C34678 /* AppDelegate.swift */; };
 		26E4A3F324BDA80C00C34678 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4A3F224BDA80C00C34678 /* SceneDelegate.swift */; };
 		26E4A3F524BDA80C00C34678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4A3F424BDA80C00C34678 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2645B40024BFA3D50064B026 /* ASButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASButton.swift; sourceTree = "<group>"; };
 		26E4A3ED24BDA80C00C34678 /* SecondApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E4A3F024BDA80C00C34678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26E4A3F224BDA80C00C34678 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2645B40224BFA3DB0064B026 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				2645B40024BFA3D50064B026 /* ASButton.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
 		26E4A3E424BDA80C00C34678 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 				26E4A3FB24BDA80D00C34678 /* LaunchScreen.storyboard */,
 				26E4A3FE24BDA80D00C34678 /* Info.plist */,
 				26E4A40424BDAA1700C34678 /* AuthViewController.swift */,
+				2645B40224BFA3DB0064B026 /* CustomUI */,
 			);
 			path = SecondApp;
 			sourceTree = "<group>";
@@ -143,6 +154,7 @@
 			files = (
 				26E4A40524BDAA1700C34678 /* AuthViewController.swift in Sources */,
 				26E4A3F524BDA80C00C34678 /* ViewController.swift in Sources */,
+				2645B40124BFA3D50064B026 /* ASButton.swift in Sources */,
 				26E4A3F124BDA80C00C34678 /* AppDelegate.swift in Sources */,
 				26E4A3F324BDA80C00C34678 /* SceneDelegate.swift in Sources */,
 			);

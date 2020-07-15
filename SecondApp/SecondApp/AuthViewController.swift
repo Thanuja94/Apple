@@ -10,21 +10,23 @@ import UIKit
 
 class AuthViewController: UIViewController {
 
+    let backgroundImage = UIImageView()
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        view.addSubview(backgroundImage)
+        backgroundImage.translatesAutoresizingMaskIntoConstraints = false
+        backgroundImage.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        backgroundImage.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        backgroundImage.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        backgroundImage.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        backgroundImage.contentMode = .scaleAspectFill
+        backgroundImage.image = UIImage(named: "Night_login")
+        view.sendSubviewToBack(backgroundImage)
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }

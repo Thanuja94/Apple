@@ -7,29 +7,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Auth View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecondApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="BYZ-38-t0r" customClass="AuthViewController" customModule="SecondApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ASButton" customModule="SecondApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Un6-ht-leL">
-                                <rect key="frame" x="20" y="20" width="374" height="856"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THf-7i-NrV" customClass="ASButton" customModule="SecondApp" customModuleProvider="target">
+                                <rect key="frame" x="183" y="800" width="51" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="LOGIN"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Un6-ht-leL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="5C5-qw-zWS"/>
-                            <constraint firstItem="Un6-ht-leL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5uE-jt-3nR"/>
-                            <constraint firstItem="Un6-ht-leL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="8ZP-Ln-ypz"/>
-                            <constraint firstItem="Un6-ht-leL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="FuF-C3-MZt"/>
-                            <constraint firstAttribute="bottom" secondItem="Un6-ht-leL" secondAttribute="bottom" constant="20" symbolic="YES" id="teG-Nb-SkL"/>
-                            <constraint firstAttribute="trailing" secondItem="Un6-ht-leL" secondAttribute="trailing" constant="20" symbolic="YES" id="vaq-ln-TgV"/>
-                            <constraint firstAttribute="trailing" secondItem="Un6-ht-leL" secondAttribute="trailing" constant="20" symbolic="YES" id="yfY-0J-4gb"/>
-                            <constraint firstAttribute="bottom" secondItem="Un6-ht-leL" secondAttribute="bottom" constant="20" symbolic="YES" id="zJP-LE-QVb"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
