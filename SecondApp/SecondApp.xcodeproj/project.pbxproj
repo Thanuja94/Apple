@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2644CD6F24C07FC400D9C332 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2644CD6E24C07FC400D9C332 /* Constants.swift */; };
+		2644CD7124C0858F00D9C332 /* ASTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2644CD7024C0858F00D9C332 /* ASTextField.swift */; };
 		2645B40124BFA3D50064B026 /* ASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2645B40024BFA3D50064B026 /* ASButton.swift */; };
 		26E4A3F124BDA80C00C34678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4A3F024BDA80C00C34678 /* AppDelegate.swift */; };
 		26E4A3F324BDA80C00C34678 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4A3F224BDA80C00C34678 /* SceneDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2644CD6E24C07FC400D9C332 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2644CD7024C0858F00D9C332 /* ASTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTextField.swift; sourceTree = "<group>"; };
 		2645B40024BFA3D50064B026 /* ASButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASButton.swift; sourceTree = "<group>"; };
 		26E4A3ED24BDA80C00C34678 /* SecondApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E4A3F024BDA80C00C34678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				2645B40024BFA3D50064B026 /* ASButton.swift */,
+				2644CD7024C0858F00D9C332 /* ASTextField.swift */,
 			);
 			path = CustomUI;
 			sourceTree = "<group>";
@@ -77,6 +82,7 @@
 				26E4A3FE24BDA80D00C34678 /* Info.plist */,
 				26E4A40424BDAA1700C34678 /* AuthViewController.swift */,
 				2645B40224BFA3DB0064B026 /* CustomUI */,
+				2644CD6E24C07FC400D9C332 /* Constants.swift */,
 			);
 			path = SecondApp;
 			sourceTree = "<group>";
@@ -156,7 +162,9 @@
 				26E4A3F524BDA80C00C34678 /* ViewController.swift in Sources */,
 				2645B40124BFA3D50064B026 /* ASButton.swift in Sources */,
 				26E4A3F124BDA80C00C34678 /* AppDelegate.swift in Sources */,
+				2644CD7124C0858F00D9C332 /* ASTextField.swift in Sources */,
 				26E4A3F324BDA80C00C34678 /* SceneDelegate.swift in Sources */,
+				2644CD6F24C07FC400D9C332 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

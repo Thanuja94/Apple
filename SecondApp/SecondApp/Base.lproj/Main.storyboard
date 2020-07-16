@@ -11,18 +11,36 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AuthViewController" customModule="SecondApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ASButton" customModule="SecondApp" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="View" customClass="ASButton" customModule="SecondApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THf-7i-NrV" customClass="ASButton" customModule="SecondApp" customModuleProvider="target">
-                                <rect key="frame" x="183" y="800" width="51" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THf-7i-NrV" customClass="ASButton" customModule="SecondApp" customModuleProvider="target">
+                                <rect key="frame" x="50" y="752" width="314" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PLS-Aa-sAL"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="LOGIN"/>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RKh-5M-5mE">
+                                <rect key="frame" x="30" y="646" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2HH-tS-NUW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RKh-5M-5mE" secondAttribute="trailing" constant="30" id="0ok-7d-eEQ"/>
+                            <constraint firstAttribute="bottom" secondItem="RKh-5M-5mE" secondAttribute="bottom" constant="200" id="6yH-mQ-lcu"/>
+                            <constraint firstItem="RKh-5M-5mE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="LrC-5R-1st"/>
+                            <constraint firstItem="THf-7i-NrV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="VZl-CM-uHx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="THf-7i-NrV" secondAttribute="trailing" constant="30" id="oBf-WX-DMB"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="THf-7i-NrV" secondAttribute="bottom" constant="60" id="p49-RB-0pw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

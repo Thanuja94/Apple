@@ -25,7 +25,7 @@ class ASButton: UIButton {
     }
     
    private func setupButton()  {
-        backgroundColor = .blue
+    backgroundColor = Colors.tropicBlue
     //titleLabel?.font = UIFont(size : 22)
     layer.cornerRadius = frame.size.height/2
     setTitleColor(.white, for: .normal)
