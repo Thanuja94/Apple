@@ -12,5 +12,8 @@ struct Colors {
     static let cynaite = UIColor(red: 22/255, green: 160/255, blue: 133/255, alpha: 1)
     
     static let greenSea = UIColor(red: 22/255, green: 160/255, blue: 133/255, alpha: 1)
+    
+    static let flatWhite = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
 }
+
 

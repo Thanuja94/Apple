@@ -25,5 +25,6 @@ class WSButton: UIButton {
         layer.cornerRadius = frame.size.height/2
         backgroundColor = .white
         setTitleColor(Colors.greenSea, for: .normal)
+        
     }
 }
