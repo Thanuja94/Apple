@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2649D7B024C192E500B39240 /* WSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649D7AF24C192E500B39240 /* WSButton.swift */; };
 		26E38C9A24C09C910027A8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38C9924C09C910027A8EB /* AppDelegate.swift */; };
 		26E38C9C24C09C910027A8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38C9B24C09C910027A8EB /* SceneDelegate.swift */; };
 		26E38C9E24C09C910027A8EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38C9D24C09C910027A8EB /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2649D7AF24C192E500B39240 /* WSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSButton.swift; sourceTree = "<group>"; };
 		26E38C9624C09C910027A8EB /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E38C9924C09C910027A8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26E38C9B24C09C910027A8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				26E38CA724C09C920027A8EB /* Info.plist */,
 				26E38CAD24C09CD60027A8EB /* Costants.swift */,
 				26E38CAF24C09E040027A8EB /* WelcomScreenViewController.swift */,
+				2649D7AF24C192E500B39240 /* WSButton.swift */,
 			);
 			path = Airbnb;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26E38CB024C09E040027A8EB /* WelcomScreenViewController.swift in Sources */,
+				2649D7B024C192E500B39240 /* WSButton.swift in Sources */,
 				26E38CAE24C09CD60027A8EB /* Costants.swift in Sources */,
 				26E38C9E24C09C910027A8EB /* ViewController.swift in Sources */,
 				26E38C9A24C09C910027A8EB /* AppDelegate.swift in Sources */,

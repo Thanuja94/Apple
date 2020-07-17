@@ -16,7 +16,7 @@ class WelcomScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = Colors.cynaite
+        view.backgroundColor = Colors.greenSea
         
     }
     

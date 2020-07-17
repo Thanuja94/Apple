@@ -9,5 +9,8 @@
 import UIKit
 
 struct Colors {
-    static let cynaite = UIColor(red: 10/255, green: 195/255, blue: 227/255, alpha: 1)
+    static let cynaite = UIColor(red: 22/255, green: 160/255, blue: 133/255, alpha: 1)
+    
+    static let greenSea = UIColor(red: 22/255, green: 160/255, blue: 133/255, alpha: 1)
 }
+
