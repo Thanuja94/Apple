@@ -26,7 +26,7 @@ class WSCreateAccButton: UIButton {
         backgroundColor = Colors.greenSea
         setTitleColor(.white, for: .normal)
         layer.borderWidth = 2
-        //layer.borderColor = .white
+        layer.borderColor = UIColor.white.cgColor
         
            
           
