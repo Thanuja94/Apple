@@ -10,6 +10,8 @@
 		26424EE824C33AF60028F2A2 /* ACConfigureEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26424EE724C33AF60028F2A2 /* ACConfigureEmail.swift */; };
 		2642767A24C2239900386851 /* ACConfigureName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2642767924C2239900386851 /* ACConfigureName.swift */; };
 		2642A58924C1E2B4008098EE /* WSCreateAccButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2642A58824C1E2B4008098EE /* WSCreateAccButton.swift */; };
+		2643D03424C41443006C7908 /* Birday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643D03324C41443006C7908 /* Birday.swift */; };
+		2643D03624C41C39006C7908 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643D03524C41C39006C7908 /* CustomDatePicker.swift */; };
 		2649D7B024C192E500B39240 /* WSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649D7AF24C192E500B39240 /* WSButton.swift */; };
 		2658351124C36A54007C3E00 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658351024C36A54007C3E00 /* CustomTextField.swift */; };
 		2658351324C37A8A007C3E00 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658351224C37A8A007C3E00 /* CustomLabel.swift */; };
@@ -28,6 +30,8 @@
 		26424EE724C33AF60028F2A2 /* ACConfigureEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACConfigureEmail.swift; sourceTree = "<group>"; };
 		2642767924C2239900386851 /* ACConfigureName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACConfigureName.swift; sourceTree = "<group>"; };
 		2642A58824C1E2B4008098EE /* WSCreateAccButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSCreateAccButton.swift; sourceTree = "<group>"; };
+		2643D03324C41443006C7908 /* Birday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birday.swift; sourceTree = "<group>"; };
+		2643D03524C41C39006C7908 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
 		2649D7AF24C192E500B39240 /* WSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSButton.swift; sourceTree = "<group>"; };
 		2658351024C36A54007C3E00 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		2658351224C37A8A007C3E00 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 				2649D7AF24C192E500B39240 /* WSButton.swift */,
 				2658351024C36A54007C3E00 /* CustomTextField.swift */,
 				2658351224C37A8A007C3E00 /* CustomLabel.swift */,
+				2643D03524C41C39006C7908 /* CustomDatePicker.swift */,
 			);
 			path = CustomUI;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 				2642767924C2239900386851 /* ACConfigureName.swift */,
 				26424EE724C33AF60028F2A2 /* ACConfigureEmail.swift */,
 				2658351424C384DF007C3E00 /* CreatePassword.swift */,
+				2643D03324C41443006C7908 /* Birday.swift */,
 			);
 			path = Airbnb;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 			files = (
 				26E38CB024C09E040027A8EB /* WelcomScreenViewController.swift in Sources */,
 				2649D7B024C192E500B39240 /* WSButton.swift in Sources */,
+				2643D03424C41443006C7908 /* Birday.swift in Sources */,
 				2658351324C37A8A007C3E00 /* CustomLabel.swift in Sources */,
 				26E38CAE24C09CD60027A8EB /* Costants.swift in Sources */,
 				2642A58924C1E2B4008098EE /* WSCreateAccButton.swift in Sources */,
@@ -184,6 +191,7 @@
 				26424EE824C33AF60028F2A2 /* ACConfigureEmail.swift in Sources */,
 				26E38C9A24C09C910027A8EB /* AppDelegate.swift in Sources */,
 				26E38C9C24C09C910027A8EB /* SceneDelegate.swift in Sources */,
+				2643D03624C41C39006C7908 /* CustomDatePicker.swift in Sources */,
 				2642767A24C2239900386851 /* ACConfigureName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
