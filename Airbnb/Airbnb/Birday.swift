@@ -10,13 +10,43 @@ import UIKit
 
 class Birday: UIViewController {
 
+    @IBOutlet weak var birthDayText: UITextField!
+    let datePicker = UIDatePicker()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
          view.backgroundColor = Colors.greenSea
+        setDatePicker()
+        
         
     }
     
+    func setDatePicker(){
+           
+           birthDayText.textAlignment = .center
+           
+          
+           let toolbar = UIToolbar()
+           toolbar.sizeToFit()
+           
+           
+           let doneBtn = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(BtnPressed))
+           toolbar.setItems([doneBtn], animated: true)
+           
+           birthDayText.inputAccessoryView = toolbar
+           birthDayText.inputView = datePicker
+           datePicker.datePickerMode = .date
+       }
+       
+       @objc func BtnPressed () {
+           let formatter = DateFormatter()
+           formatter.dateStyle = .medium
+           formatter.timeStyle = .none
+           
+           birthDayText.text = formatter.string(from: datePicker.date)
+        self.view.endEditing(true)
+       }
 
    
 
