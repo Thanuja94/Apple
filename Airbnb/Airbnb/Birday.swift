@@ -10,8 +10,10 @@ import UIKit
 
 class Birday: UIViewController {
 
-    @IBOutlet weak var birthDayText: UITextField!
+   
     let datePicker = UIDatePicker()
+  
+    @IBOutlet weak var birthDayText: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +27,8 @@ class Birday: UIViewController {
     func setDatePicker(){
            
            birthDayText.textAlignment = .center
-           
+        birthDayText.textColor = .white
+        
           
            let toolbar = UIToolbar()
            toolbar.sizeToFit()
